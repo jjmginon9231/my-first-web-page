@@ -1,5 +1,7 @@
 # My First Web Page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca740098-ce24-45b9-bf56-cea77f3d13ad/deploy-status)](https://app.netlify.com/sites/my-first-web-page-project/deploys)
+
 Welcome to the repository of my very first web page! This project is a stepping stone into the vast world of web development, and I'm excited to share it with you.
 
 ## Inspiration
