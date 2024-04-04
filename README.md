@@ -29,7 +29,7 @@ To view this web page:
 
 ## Acknowledgments
 
-- A big thank you to Dave Gray (https://github.com/gitdagray) for his [HTML Tutorials for Beginners](https://www.youtube.com/watch?v=mJgBOIoGihA) which were instrumental in building this web page.
+- A big thank you to [Dave Gray](https://github.com/gitdagray) for his [HTML Tutorials for Beginners](https://www.youtube.com/watch?v=mJgBOIoGihA) which were instrumental in building this web page.
 - Shoutout to the web development community for their support and resources.
 
 ---
