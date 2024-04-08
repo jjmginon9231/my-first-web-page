@@ -6,3 +6,19 @@ body {
     background-color: #131313;
     color: #fdfdfd;
 }
+
+a {
+    color: hsl(219, 79%, 75%);
+}
+
+a:visited {
+    color: hsl(219, 79%, 60%);
+}
+
+a:hover {
+    color: hsl(219, 79%, 50%);
+}
+
+a:active {
+    color: hsl(219, 79%, 40%);
+}
