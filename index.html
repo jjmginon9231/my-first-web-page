@@ -12,104 +12,130 @@
 </head>
 
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <h1>Hello World!</h1>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html">Studying HTML</a>
+                </li>
+                <li>
+                    <a href="#getaway">Planning a Getaway</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <hr>
-
-    <nav>
-        <ul>
-            <li>
-                <a href="#html">Studying HTML</a>
-            </li>
-            <li>
-                <a href="#getaway">Planning a Getaway</a>
-            </li>
-        </ul>
-    </nav>
-
-    <hr>
-
-    <section id="html">
-        <h2>I'm Prepared to Study HTML</h2>
-        <p>Welcome to my first web page.</p>
-        <img src="img/html5-logo-300x300.png" alt="An HTML5 Logo" title="I'm studying HTML5" width="300" height="300">
-        <figure>
-            <figcaption>A Basic Example of HTML5 Codes</figcaption>
-            <p>
-                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
-            </p>
-            <p>
-                <code>&lt;p&gt;Welcome to my first web page.&lt;/p&gt;</code>
-            </p>
-        </figure>
-        <h3>My Workday Schedule</h3>
-        <p>I'm going to share how:</p>
-        <ol>
-            <li>...I learned more about web development.</li>
-            <li>...I structure my schedule.</li>
-            <li>...I use <abbr title="Mozilla Developer Network">
-                    <a href="https://developer.mozilla.org/">MDN</a>
-                </abbr> resources.</li>
-        </ol>
-    </section>
-
-    <hr>
-
-    <section id="getaway">
-        <h2>I'm Also Planning a Getaway</h2>
-        <p>I've been working diligently and <em>definitely deserve a vacation.</em></p>
-        <p>I live in <abbr title="Manila">MNL</abbr> and would like to go to take a dip in a hot spring.</p>
-
-        <h3>Places I'd Like To Travel To</h3>
-        <ul>
-            <li>
-                <p>I've' heard amazing reviews about Japan's hot springs.</p>
+    <main>
+        <article id="html">
+            <h2>I'm Prepared to Study HTML</h2>
+            <p>Welcome to my first web page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html5-logo-300x300.png" alt="An HTML5 Logo" title="I'm studying HTML5" width="300"
+                    height="300">
                 <figure>
-                    <img src="img/hgp-hakone-aiart-400x300.jpg"
-                        alt="An AI Generated Illustration of a Hot Spring in Japan"
-                        title="I'd like to visit a hot spring in Japan." width="400" height="300" loading="lazy">
-                    <figcaption>
-                        Vacation at a Hot Spring in Japan
-                    </figcaption>
+                    <figcaption>A Basic Example of HTML5 Codes</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
+                    <p>
+                        <code>&lt;p&gt;Welcome to my first web page.&lt;/p&gt;</code>
+                    </p>
                 </figure>
-            </li>
-            <li>
-                <p>I've been told excellent reviews regarding visiting here:</p>
-                <address>
-                    Hakone Yuryo<br>
-                    4 Tonosawa, Hakone, <br>
-                    Ashigarashimo District, <br>
-                    Kanagawa 250-0315, Japan
-                </address>
-                <figure>
-                    <img src="img/hakone-yuryo-aiart-400x208.jpg"
-                        alt="An AI Generated Illustration of a Night in Hakone Yuryo"
-                        title="Once in a lifetime encounter." width="400" height="208" loading="lazy">
-                    <figcaption>
-                        A Night in Hakone Yuryo
-                    </figcaption>
-                </figure>
-            </li>
-        </ul>
-        <!-- TODO: Add more places here -->
-        <h3>Places I'd Prefer to Avoid</h3>
-        <dl>
-            <dt>Antarctica</dt>
-            <dd>I've heard this is extremely cold.</dd>
+            </section>
+            <section>
+                <h3>My Workday Schedule</h3>
+                <p>I'm going to share how:</p>
+                <ol>
+                    <li>...I learned more about web development.</li>
+                    <li>...I structure my schedule.</li>
+                    <li>...I use <abbr title="Mozilla Developer Network">
+                            <a href="https://developer.mozilla.org/">MDN</a>
+                        </abbr> resources.</li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Estimate <mark>how many hours</mark> I spend coding each day.</summary>
+                        <p>
+                            Every morning, I start at
+                            <time datetime="09:00">9 a.m.</time>
+                            and work on coding for
+                            <time datetime="PT3H">three hours</time>.
+                        </p>
+                    </details>
+                </aside>
+            </section>
+        </article>
 
-            <dt>Oymyakon</dt>
-            <dd>This area is also extremely cold.</dd>
+        <hr>
 
-            <dt>Mount Washington</dt>
-            <dd>This place is <strong>either extremely hot or cold</strong>!</dd>
-        </dl>
-    </section>
+        <article id="getaway">
+            <h2>I'm Also Planning a Getaway</h2>
+            <p>I've been working diligently and <em>definitely deserve a vacation.</em></p>
+            <p>I live in <abbr title="Manila">MNL</abbr> and would like to go to take a dip in a hot spring.</p>
 
+            <section>
+                <h3>Places I'd Like To Travel To</h3>
+                <ul>
+                    <li>
+                        <p>I've' heard amazing reviews about Japan's hot springs.</p>
+                        <figure>
+                            <img src="img/hgp-hakone-aiart-400x300.jpg"
+                                alt="An AI Generated Illustration of a Hot Spring in Japan"
+                                title="I'd like to visit a hot spring in Japan." width="400" height="300"
+                                loading="lazy">
+                            <figcaption>
+                                Vacation at a Hot Spring in Japan
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>I've been told excellent reviews regarding visiting here:</p>
+                        <address>
+                            Hakone Yuryo<br>
+                            4 Tonosawa, Hakone, <br>
+                            Ashigarashimo District, <br>
+                            Kanagawa 250-0315, Japan
+                        </address>
+                        <figure>
+                            <img src="img/hakone-yuryo-aiart-400x208.jpg"
+                                alt="An AI Generated Illustration of a Night in Hakone Yuryo"
+                                title="Once in a lifetime encounter." width="400" height="208" loading="lazy">
+                            <figcaption>
+                                A Night in Hakone Yuryo
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+            <!-- TODO: Add more places here -->
+            <section>
+                <h3>Places I'd Prefer to Avoid</h3>
+                <dl>
+                    <dt>Antarctica</dt>
+                    <dd>I've heard this is extremely cold.</dd>
+
+                    <dt>Oymyakon</dt>
+                    <dd>This area is also extremely cold.</dd>
+
+                    <dt>Mount Washington</dt>
+                    <dd>This place is <strong>either extremely hot or cold</strong>!</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
     <hr>
-    &lt; &copy; <a href="about.html">JJ Ginon</a> /&gt;
-    <p>
-        <a href="#">Back to Top</a>
-    </p>
+    <footer>
+        <p>
+            &lt; &copy; <a href="about.html">JJ Ginon</a> /&gt;
+        </p>
+        <p>
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
 </body>
 
 </html>
