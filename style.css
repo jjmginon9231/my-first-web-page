@@ -22,3 +22,14 @@ a:hover {
 a:active {
     color: hsl(219, 79%, 40%);
 }
+
+table,
+tr,
+th,
+td,
+caption {
+    border: 2px solid hsl(219, 69%, 69%);
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
