@@ -32,8 +32,8 @@ To view this web page:
 - A big thank you to [Dave Gray](https://github.com/gitdagray) for his [HTML Tutorials for Beginners](https://www.youtube.com/watch?v=mJgBOIoGihA) which were instrumental in building this web page.
 - Shoutout to the web development community for their support and resources.
 
----
+## Contact
 
-Happy coding!
+Feel free to reach out for collaborations or work opportunities.
 
-JJ Ginon
+[LinkedIn](https://www.linkedin.com/in/john-jerry-ginon-0b5539314/) | [GitHub](https://github.com/jjmginon9231/) | [Upwork](https://www.upwork.com/freelancers/~01432eb5f90e315e15?mp_source=share)
